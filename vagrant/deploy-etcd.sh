@@ -95,7 +95,7 @@ etcd::deploy()
     do
         etcd::config $key
         etcd::ssh "root@${NODE_MAP[$key]}" "mkdir -p /opt/etcd/data /opt/etcd/conf /opt/etcd/log"
-        etcd::ssh "root@${NODE_MAP[$key]}" "pkill etcd"
+        # etcd::ssh "root@${NODE_MAP[$key]}" "pkill etcd"
         etcd::scp "root@${NODE_MAP[$key]}" "${key}.conf" "/opt/etcd/conf/etcd.conf"
         # etcd::scp "root@${NODE_MAP[$key]}" "etcd.service" "/usr/lib/systemd/system"
         etcd::scp "root@${NODE_MAP[$key]}" "${PWD}/temp-etcd/etcd ${PWD}/temp-etcd/etcdctl" "/usr/bin"

@@ -1,0 +1,4 @@
+vagrant/.vagrant
+vagrant/*.deb
+vagrant/*.tar*
+vagrant/*.data
