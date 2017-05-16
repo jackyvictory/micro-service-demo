@@ -2,4 +2,4 @@
 
     $ go run main.go
 
-    http://localhost:9000/trans
+  then view http://localhost:9000/trans
