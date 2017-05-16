@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package pb;
+
+// Trans service definition
+service Transaction {
+  rpc Add (Trans) returns (Resp) {}
+  rpc Update (Trans) returns (Resp) {}
+  rpc Find (QueryCond) returns (TransList) {}
+}
+
+// The request trans message definition
+message Trans {
+  string id = 1;
+  string orderNum = 2;
+  int64 transAmt = 3;
+}
+
+message TransList {
+  repeated Trans t = 1;
+}
+
+message QueryCond {
+  string orderNum = 1;
+  int64 minTransAmt = 2;
+  int64 maxTransAmt = 3;
+}
+
+message Resp {
+  bool ok = 1;
+}
