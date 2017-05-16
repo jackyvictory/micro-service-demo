@@ -40,4 +40,4 @@ https://coreos.com/etcd/docs/latest/dev-guide/grpc_naming.html
 
 ## protoc plugin for Go
 
-		$ go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
+	$ go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
