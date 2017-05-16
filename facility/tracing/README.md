@@ -1,5 +1,5 @@
 # Reference
-  Specification
+*  Specification
 
   http://opentracing.io/documentation/
 
@@ -7,7 +7,7 @@
 
   https://github.com/opentracing/specification/blob/master/semantic_conventions.md
 
-  Go implementation framework
+*  Go implementation framework
 
   https://github.com/bg451/opentracing-example
 
@@ -15,7 +15,7 @@
 
   https://github.com/grpc-ecosystem/grpc-opentracing/tree/master/go/otgrpc
 
-  Tracing system
+*  Tracing system
 
   http://zipkin.io/
 
