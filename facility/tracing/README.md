@@ -1,41 +1,49 @@
 # Reference
   Specification
 
-    http://opentracing.io/documentation/
-    https://github.com/opentracing/specification/blob/master/specification.md
-    https://github.com/opentracing/specification/blob/master/semantic_conventions.md
+  http://opentracing.io/documentation/
+
+  https://github.com/opentracing/specification/blob/master/specification.md
+
+  https://github.com/opentracing/specification/blob/master/semantic_conventions.md
 
   Go implementation framework
 
-    https://github.com/bg451/opentracing-example
-    https://github.com/opentracing/opentracing-go
-    https://github.com/grpc-ecosystem/grpc-opentracing/tree/master/go/otgrpc
+  https://github.com/bg451/opentracing-example
+
+  https://github.com/opentracing/opentracing-go
+
+  https://github.com/grpc-ecosystem/grpc-opentracing/tree/master/go/otgrpc
 
   Tracing system
 
-    http://zipkin.io/
-    https://github.com/openzipkin/zipkin/
-    https://github.com/openzipkin/zipkin-go-opentracing
-    http://jaeger.readthedocs.io/en/latest/architecture/
-    https://github.com/sourcegraph/appdash
+  http://zipkin.io/
+
+  https://github.com/openzipkin/zipkin/
+
+  https://github.com/openzipkin/zipkin-go-opentracing
+
+  http://jaeger.readthedocs.io/en/latest/architecture/
+
+  https://github.com/sourcegraph/appdash
 
 # Environment
   localhost: OS X 10.10.3
 
 # Installation
-##  [opentracing-example]
-an example for tracing
+##  opentracing-example
+  an example for tracing
 
     $ docker run --rm -ti -p 8080:8080 -p 8700 bg451/opentracing-example
 
-##  [opentracing-go]
-package is a Go platform API for OpenTracing
+##  opentracing-go
+  package is a Go platform API for OpenTracing
 
     $ go get github.com/opentracing/opentracing-go
 
-##  [otgrpc]
+##  otgrpc
 
-package enables distributed tracing in gRPC clients and servers via The OpenTracing Project
+  package enables distributed tracing in gRPC clients and servers via The OpenTracing Project
 
     $ go get github.com/grpc-ecosystem/grpc-opentracing/go/otgrpc
 

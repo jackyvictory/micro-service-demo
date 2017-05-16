@@ -14,11 +14,11 @@ Just a demo
 
 * [Run platform demo for gRPC client](/product/cilPlatform)
 
-* [Launch a gRPC request](http://localhost:9000/trans/)
+* [Launch a gRPC request](http://localhost:9000/trans)
 
-* [See the traces of that request](http://localhost:9411/)
+* [See the traces of that request](http://localhost:9411)
 
-* [Monitor etcd cluster status](http://192.168.99.40:3000/)
+* [Monitor etcd cluster status](http://192.168.99.40:3000/dashboard/db/test-etcd?orgId=1)
 
 * See gRPC requests' load balance
 

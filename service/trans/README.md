@@ -1,10 +1,10 @@
 # Build & dispatch
-Build trans service, and dispatch it to vagrant virtual boxex
+	Build trans service, and dispatch it to vagrant virtual boxex
 
 		$ ./packageAndDispatch.sh
 
 # Run
-Run trans service on virtual boxex
+	Run trans service on virtual boxex
 
     $ cd ../../vagrant
 
