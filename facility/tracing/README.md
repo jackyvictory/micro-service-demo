@@ -1,31 +1,31 @@
 # Reference
 *  Specification
 
-  http://opentracing.io/documentation/
+    http://opentracing.io/documentation/
 
-  https://github.com/opentracing/specification/blob/master/specification.md
+    https://github.com/opentracing/specification/blob/master/specification.md
 
-  https://github.com/opentracing/specification/blob/master/semantic_conventions.md
+    https://github.com/opentracing/specification/blob/master/semantic_conventions.md
 
 *  Go implementation framework
 
-  https://github.com/bg451/opentracing-example
+    https://github.com/bg451/opentracing-example
 
-  https://github.com/opentracing/opentracing-go
+    https://github.com/opentracing/opentracing-go
 
-  https://github.com/grpc-ecosystem/grpc-opentracing/tree/master/go/otgrpc
+    https://github.com/grpc-ecosystem/grpc-opentracing/tree/master/go/otgrpc
 
 *  Tracing system
 
-  http://zipkin.io/
+    http://zipkin.io/
 
-  https://github.com/openzipkin/zipkin/
+    https://github.com/openzipkin/zipkin/
 
-  https://github.com/openzipkin/zipkin-go-opentracing
+    https://github.com/openzipkin/zipkin-go-opentracing
 
-  http://jaeger.readthedocs.io/en/latest/architecture/
+    http://jaeger.readthedocs.io/en/latest/architecture/
 
-  https://github.com/sourcegraph/appdash
+    https://github.com/sourcegraph/appdash
 
 # Environment
   localhost: OS X 10.10.3
