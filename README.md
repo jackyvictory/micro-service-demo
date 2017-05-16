@@ -4,15 +4,15 @@ Just a demo
 
 # Steps
 
-* [Install gRPC and protobuf](https://github.com/jackyvictory/micro-service-demo/tree/master/service/pb)
+* [Install gRPC and protobuf](/service/pb)
 
-* [Install etcd cluster on vagrant virtual boxex](https://github.com/jackyvictory/micro-service-demo/tree/master/vagrant)
+* [Install etcd cluster on vagrant virtual boxex](/vagrant)
 
-* [Install and startup zipkin for tracing](https://github.com/jackyvictory/micro-service-demo/tree/master/facility/tracing/zipkin)
+* [Install and startup zipkin for tracing](/facility/tracing/zipkin)
 
-* [Run trans service demo for gRPC server](https://github.com/jackyvictory/micro-service-demo/tree/master/service/trans)
+* [Run trans service demo for gRPC server](/service/trans)
 
-* [Run platform demo for gRPC client](https://github.com/jackyvictory/micro-service-demo/tree/master/product/cilPlatform)
+* [Run platform demo for gRPC client](/product/cilPlatform)
 
 * [Launch a gRPC request](http://localhost:9000/trans/)
 
