@@ -1,12 +1,12 @@
 # Install vagrant
-  To be continued...
+  To be continued, pls help yourself...
 
 # Start vagrant virtual boxex
 
     $ vagrant reload
 
 # Setup NTP both for virtual boxex and localhost
-  To be continued...
+  To be continued, pls help yourself...
 
 # etcd3
 ## Reference
