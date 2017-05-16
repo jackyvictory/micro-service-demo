@@ -105,6 +105,6 @@
       URL: http://192.168.99.40:9090
       Access: proxy
 
-    *Dashboards* - *Import*
-
-      paste Json: [default etcd dashboard template]( https://coreos.com/etcd/docs/latest/op-guide/grafana.json)
+    *Dashboards* - *Import* - *paste Json*
+     
+     [from default etcd dashboard template](https://coreos.com/etcd/docs/latest/op-guide/grafana.json)
